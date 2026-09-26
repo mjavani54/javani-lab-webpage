@@ -40,7 +40,7 @@ Research focus: atomic, molecular, and optical physics.
 - Quantum cybersecurity
 
 <div class="button-row">
-  <a class="button primary" href="{{ '/assets/Javani_CV.pdf' | relative_url }}">Download Full CV</a>
+  <!-- <a class="button primary" href="{{ '/assets/Javani_CV.pdf' | relative_url }}">Download Full CV</a> -->
   <a class="button" href="https://scholar.google.com/citations?user=y7wEhXUAAAAJ">Google Scholar</a>
 </div>
 
