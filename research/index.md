@@ -12,9 +12,10 @@ description: Research directions of the Javani Research Group in quantum computi
   </div>
 </div>
 
-<div class="container content-page">
+<div class="container content-page" markdown="1">
 
-## AI-Assisted Quantum Algorithm Discovery {#quantum-algorithm-discovery}
+## AI-Assisted Quantum Algorithm Discovery
+{: #quantum-algorithm-discovery}
 
 A central direction of my current research asks whether artificial intelligence can help reveal the structures and principles that underlie efficient quantum algorithms. Rather than treating circuit design only as a manual process, this work investigates computational frameworks that can search, analyze, reduce, and interpret candidate quantum circuits.
 
@@ -29,7 +30,8 @@ Topics include:
 
 ---
 
-## Quantum Simulation {#quantum-simulation}
+## Quantum Simulation
+{: #quantum-simulation}
 
 I investigate quantum algorithms for physical and chemical systems with particular emphasis on reproducibility, resource efficiency, and physically meaningful model reduction.
 
@@ -47,7 +49,8 @@ A key objective is to determine how much circuit and parameter complexity is nec
 
 ---
 
-## Artificial Intelligence for Nanophotonics {#nanophotonics}
+## Artificial Intelligence for Nanophotonics
+{: #nanophotonics}
 
 Nanophotonic design problems often require repeated electromagnetic simulations over high-dimensional parameter spaces. My research uses machine learning to accelerate forward modeling and inverse design while preserving physically meaningful behavior.
 
@@ -66,7 +69,8 @@ Electromagnetic simulations and analytical models are used to generate datasets 
 
 ---
 
-## Explainable and Efficient Scientific Machine Learning {#explainable-ml}
+## Explainable and Efficient Scientific Machine Learning
+{: #explainable-ml}
 
 High predictive accuracy is not enough when a scientific model is used to reason about a physical system. I am interested in identifying what information neural networks learn, which variables matter most, and how model complexity relates to the intrinsic complexity of the underlying dataset.
 
@@ -83,7 +87,8 @@ Methods include:
 
 ---
 
-## Quantum Cybersecurity {#quantum-cybersecurity}
+## Quantum Cybersecurity
+{: #quantum-cybersecurity}
 
 I am also developing research at the intersection of quantum information and cybersecurity, especially for cyber-physical systems in which unpredictability, adaptation, and adversarial learning are central concerns.
 

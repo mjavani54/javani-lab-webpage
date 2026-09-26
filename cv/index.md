@@ -11,7 +11,7 @@ description: Education and academic background of Mohammad Javani.
   </div>
 </div>
 
-<div class="container content-page">
+<div class="container content-page" markdown="1">
 
 ## Current Position
 

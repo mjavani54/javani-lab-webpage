@@ -12,7 +12,7 @@ description: Research opportunities for students in the Javani Research Group.
   </div>
 </div>
 
-<div class="container content-page">
+<div class="container content-page" markdown="1">
 
 ## Areas for Student Research
 

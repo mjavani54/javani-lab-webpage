@@ -12,7 +12,7 @@ description: Contact information for Mohammad Javani at Clark Atlanta University
   </div>
 </div>
 
-<div class="container content-page contact-card">
+<div class="container content-page contact-card" markdown="1">
 
 ## Mohammad Javani, Ph.D.
 

@@ -12,7 +12,7 @@ description: Teaching areas and courses taught by Mohammad Javani at Clark Atlan
   </div>
 </div>
 
-<div class="container content-page">
+<div class="container content-page" markdown="1">
 
 ## Current Teaching Areas
 

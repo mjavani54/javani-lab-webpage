@@ -12,7 +12,7 @@ description: Selected publications and scholarly work by Mohammad Javani.
   </div>
 </div>
 
-<div class="container content-page">
+<div class="container content-page" markdown="1">
 
 ## Selected Publication
 
