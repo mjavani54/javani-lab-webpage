@@ -1,2 +1,3 @@
-# javani-lab-webpage
-Javani.org Webpage
+# Javani Lab
+
+Dr Mohammad Javani's lab page | Clark Atlanta University
