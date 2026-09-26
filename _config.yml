@@ -1,0 +1,13 @@
+title: Mohammad Javani Research Group
+description: Research in quantum computing, artificial intelligence, nanophotonics, scientific machine learning, and quantum cybersecurity.
+url: "https://javani.org"
+baseurl: ""
+email: mjavani@cau.edu
+phone: "404-880-6048"
+author: Mohammad Javani
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
