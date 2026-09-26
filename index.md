@@ -26,7 +26,7 @@ description: Mohammad Javani's research group at Clark Atlanta University, worki
 <section class="section">
   <div class="container narrow">
     <h2>About</h2>
-    <p>I am a tenure-track Assistant Professor in the Department of Cyber-Physical Systems at Clark Atlanta University. My work spans quantum algorithms, quantum simulation, artificial intelligence for scientific discovery, nanophotonic inverse design, explainable machine learning, and quantum cybersecurity.</p>
+    <p>I am an <!--tenure-track--> Assistant Professor in the Department of Cyber-Physical Systems at Clark Atlanta University. My work spans quantum algorithms, quantum simulation, artificial intelligence for scientific discovery, nanophotonic inverse design, explainable machine learning, and quantum cybersecurity.</p>
     <p>A recurring question across my research is how much computational complexity is actually required to solve a scientific problem. I am interested not only in obtaining accurate predictions, but also in identifying the structures, representations, and physical principles that make those predictions possible.</p>
   </div>
 </section>
