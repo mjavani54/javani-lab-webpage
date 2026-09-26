@@ -1,0 +1,2 @@
+# Matches .DS_Store in the root and any nested subdirectory
+**/.DS_Store
