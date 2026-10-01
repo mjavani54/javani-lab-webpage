@@ -20,6 +20,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.research-card{transition:none}}
 
 /* Compact principal investigator portrait while preserving the profile layout. */
+.hero-art img{object-position:67% center}
 .person-lead{grid-template-columns:240px minmax(0,1fr);align-items:center;min-height:0;padding:1.5rem}
 .person-lead .person-portrait{width:208px;height:245px;min-height:0}
 .person-lead .person-copy{padding:1rem 1.4rem 1rem .5rem}
