@@ -3,15 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="theme-color" content="#0b1b2b">
+  <meta name="description" content="{{ page.description | escape }}">
+  <title>{{ page.title | escape }}</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b1b2b'/%3E%3Cpath d='M42 12v27c0 10-5 15-15 15-7 0-11-3-14-8' fill='none' stroke='%237ee2d8' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  <script src="{{ '/assets/site.js' | relative_url }}" defer></script>
 </head>
 <body>
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-  {% include footer.html %}
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Javani Research Lab home"><span class="brand-mark" aria-hidden="true">J</span><span class="brand-name">JAVANI<small>RESEARCH LAB</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">Menu <span class="menu-bars" aria-hidden="true"><span></span><span></span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="{{ '/' | relative_url }}"{% if page.nav == 'home' %} aria-current="page"{% endif %}>Home</a><a href="{{ '/research/' | relative_url }}"{% if page.nav == 'research' %} aria-current="page"{% endif %}>Research</a><a href="{{ '/people/' | relative_url }}"{% if page.nav == 'people' %} aria-current="page"{% endif %}>People</a><a href="https://scholar.google.com/citations?user=y7wEhXUAAAAJ" target="_blank" rel="noopener noreferrer">Publications<span class="sr-only"> (opens Google Scholar in a new tab)</span></a><a href="{{ '/about/' | relative_url }}"{% if page.nav == 'about' %} aria-current="page"{% endif %}>About</a><a class="nav-contact" href="{{ '/about/' | relative_url }}#contact">Contact the lab</a></nav>
+    </div>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">J</span><span class="brand-name">JAVANI<small>RESEARCH LAB</small></span></a><p>Computational research spanning light, learning, quantum systems, and trustworthy technology.</p></div>
+        <div class="footer-col"><h3>Explore</h3><a href="{{ '/research/' | relative_url }}">Research</a><a href="{{ '/people/' | relative_url }}">People</a><a href="{{ '/publications/' | relative_url }}">Selected papers</a><a href="{{ '/about/' | relative_url }}">About</a></div>
+        <div class="footer-col"><h3>Connect</h3><a href="mailto:mjavani@cau.edu">mjavani@cau.edu</a><a href="https://scholar.google.com/citations?user=y7wEhXUAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a><a href="https://github.com/mjavani54" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Javani Research Lab</span><span>Atlanta, Georgia · Led by Mohammad H. Javani</span></div>
+    </div>
+  </footer>
 </body>
 </html>
