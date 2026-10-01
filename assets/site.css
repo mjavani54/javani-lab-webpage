@@ -18,3 +18,10 @@
 @media(max-width:560px){.person-portrait{height:330px}.person-copy h3{font-size:2.4rem}.person-links{display:block}.person-links a{margin:.5rem 0}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.research-card{transition:none}}
+
+/* Compact principal investigator portrait while preserving the profile layout. */
+.person-lead{grid-template-columns:240px minmax(0,1fr);align-items:center;min-height:0;padding:1.5rem}
+.person-lead .person-portrait{width:208px;height:245px;min-height:0}
+.person-lead .person-copy{padding:1rem 1.4rem 1rem .5rem}
+@media(max-width:760px){.person-lead{grid-template-columns:190px minmax(0,1fr);gap:1rem;padding:1.25rem}.person-lead .person-portrait{width:180px;height:212px}.person-lead .person-copy{padding:1rem 0}}
+@media(max-width:560px){.person-lead{grid-template-columns:1fr;gap:0}.person-lead .person-portrait{width:156px;height:184px}.person-lead .person-copy{padding:1.4rem 0 .4rem}}

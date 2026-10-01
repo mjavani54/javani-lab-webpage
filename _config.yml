@@ -7,3 +7,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - index.md

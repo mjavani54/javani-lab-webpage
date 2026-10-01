@@ -5,11 +5,12 @@ This package contains the complete Jekyll site for javani.org. It includes the P
 ## Put it on your existing domain
 
 1. Extract this ZIP. Copy its contents (including the layouts folder, configuration, CNAME, the five HTML pages, and assets) into the root of the existing mjavani54/javani-lab-webpage repository.
-2. Replace the previous website pages and assets rather than leaving competing old index or route files in the repository. If using Git locally, preserve the repository's .git directory.
+2. Replace the previous website pages and assets. Your current repository has an older root `index.md`; delete it after uploading, or keep this package's `_config.yml`, which excludes it from the Jekyll build. If using Git locally, preserve the repository's `.git` directory.
 3. Commit and push to your publishing branch. In GitHub repository Settings → Pages, use deployment from the branch and / (root) folder.
 4. Keep javani.org configured as the custom domain. This package already contains CNAME; it does not require mail or MX records.
 
 The site uses Jekyll front matter and one shared layout. Navigation and assets use Jekyll's relative_url filter. The Gemfile supports local preview with bundle install and bundle exec jekyll serve, if Ruby/Bundler are installed.
+The intended home page is `index.html`, beginning “Where light meets intelligence.” Its research cards, hero art, and sections are included in this package.
 
 ## Editing
 
